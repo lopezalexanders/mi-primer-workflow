@@ -24,7 +24,8 @@ jobs:
   deploy:
       runs-on: ubuntu-latest
   needs: build # Espera que build termine
-  if: github.ref == 'refs/heads/main' # Solo en main
+  
+if: github.ref == 'refs/heads/main'
   steps:
     - name: Deploy to production
-    run: echo "Deploying to prod..."
+      run: echo "Deploying to prod..."
