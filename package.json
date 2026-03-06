@@ -1,8 +1,1 @@
-{
-"name": "ci-demo",
-"version": "1.0.0",
-"scripts": {
-"test": "node test.js",
-"lint": "echo 'Running linter...'"
-}
-}
+{"name":"ci-demo","version":"1.0.0","scripts":{"test":"node test.js","lint":"echo 'Running linter...'"},"description":"repositorio usado para actions","main":"app.js","repository":{"type":"git","url":"git+https://github.com/lopezalexanders/mi-primer-workflow.git"},"keywords":[],"author":"","license":"ISC","type":"commonjs","bugs":{"url":"https://github.com/lopezalexanders/mi-primer-workflow/issues"},"homepage":"https://github.com/lopezalexanders/mi-primer-workflow#readme","dependencies":{"express":"^5.2.1"},"devDependencies":{"eslint":"^10.0.2","jest":"^30.2.0"}}
