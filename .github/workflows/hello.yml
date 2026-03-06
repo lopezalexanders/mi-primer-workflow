@@ -1,0 +1,17 @@
+name: Hola del Git Martin
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+      -name: Holaaaa
+      run: echo "Hola desde mi github"
+      -name: mostrar fecha
+      run: date
+      -name: listar archivos
+      run: ls -la
+      
+
