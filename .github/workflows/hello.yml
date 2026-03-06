@@ -8,10 +8,10 @@ jobs:
 
     steps:
       -name: Holaaaa
-      run: echo "Hola desde mi github"
+        run: echo "Hola desde mi github"
       -name: mostrar fecha
-      run: date
+        run: date
       -name: listar archivos
-      run: ls -la
-      
+        run: ls -la
+
 
