@@ -23,7 +23,7 @@ jobs:
         run:  npm ci
 
       - name: ejecutar linter
-        run: npm run linter
+        run: npm run lint
 
       - name: ejecutar test 
         run:  npm test
